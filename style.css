@@ -1,25 +1,17 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 body {
   background: #d5e1ef;
   font-family: 'Outfit', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-main {
-  padding-top: 5%;
-}
+main {}
 
 .wrapper {
   background: white;
-  display: flex;
-  flex-direction: column;
   max-width: 327px;
   margin: 0 auto;
   border-radius: 20px;
@@ -35,7 +27,7 @@ p {
 
 p {
   color: grey;
-  font-size: 15px;
+  font-size: 1rem;
   padding: 0px 40px;
 }
 
