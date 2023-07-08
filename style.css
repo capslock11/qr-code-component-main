@@ -1,0 +1,46 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background: #d5e1ef;
+  font-family: 'Outfit', sans-serif;
+}
+
+main {
+  padding-top: 5%;
+}
+
+.wrapper {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 327px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+h2,
+p {
+  text-align: center;
+  padding: 0px 25px;
+}
+
+p {
+  color: grey;
+  font-size: 15px;
+  padding: 0px 40px;
+}
+
+img {
+  max-width: 327px;
+  border-radius: 20px;
+  cursor: pointer;
+}
